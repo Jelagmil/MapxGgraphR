@@ -65,24 +65,24 @@ TUTORIAL
 
       2.1. Identificador de partido. Para que se guarde un fichero con los datos que vas a ir introduciendo
 
-      2.2. Equipo Local para que introduzas el literal del equipo 
+      2.2. Equipo Local para que introduzas el literal del equipo [luego pregunta por el visitante]
 
       2.3. Número de disparos que vas a introducir
 
-      2.4. Coordenada x e y. 
+      2.4. Coordenada x e y. como explico más arriba
 
       2.5. El minuto en el que se produce el disparo
 
-      2.6. Parte del cuerpo con la que ha disparado
+      2.6. Parte del cuerpo con la que ha disparado ["cabeza", "pied","piei","otraparte"]
 
-      2.7. Bajo que siutación ha sido
+      2.7. Bajo que siutación ha sido ["juegoestatico", "contra","faltaind","corner",'faltadir','penalty','banda']
 
-      2.8. Si ha sido de tiro de penalty
+      2.8. Si ha sido de tiro de penalty [Si,No]
 
-      2.9. Si ha sido un cara a cara contra el portero
+      2.9. Si ha sido un cara a cara contra el portero [Si,No]
 
-      2.10. Si ha acabado en gol. 
+      2.10. Si ha acabado en gol.  [Si,No]
 
-      2.11 Quién ha metido el gol
+      2.11 Quién ha metido el gol [Nombre]
 
 Con esta info la libreria podrá calcular el xG de cada disparo, ponerlo en el mapa y construir el gráfico acumulado de xG por minutos.
