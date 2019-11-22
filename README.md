@@ -63,7 +63,7 @@ TUTORIAL
 
 2. Tendrás que apuntar:
 
-      2.1. Identificador de partido. Para que se guarde un fichero con los datos que vas a ir introduciendo
+      2.1. Identificador de partido. Para que se guarde un fichero .rds con los datos que vas a ir introduciendo en la ruta que tengas la sesión.
 
       2.2. Equipo Local para que introduzas el literal del equipo [luego pregunta por el visitante]
 
