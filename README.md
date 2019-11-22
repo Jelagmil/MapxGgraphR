@@ -62,16 +62,27 @@ TUTORIAL
 <img src="vignettes/27.png" alt="Resultado de la entrada de datos" width="100%" />
 
 2. Tendrás que apuntar:
+
 2.1. Identificador de partido. Para que se guarde un fichero con los datos que vas a ir introduciendo
+
 2.2. Equipo Local para que introduzas el literal del equipo 
+
 2.3. Número de disparos que vas a introducir
+
 2.4. Coordenada x e y. 
+
 2.5. El minuto en el que se produce el disparo
+
 2.6. Parte del cuerpo con la que ha disparado
+
 2.7. Bajo que siutación ha sido
+
 2.8. Si ha sido de tiro de penalty
+
 2.9. Si ha sido un cara a cara contra el portero
+
 2.10. Si ha acabado en gol. 
+
 2.11 Quién ha metido el gol
 
 Con esta info la libreria podrá calcular el xG de cada disparo, ponerlo en el mapa y construir el gráfico acumulado de xG por minutos.
