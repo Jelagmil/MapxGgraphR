@@ -1,0 +1,14 @@
+Package: MapxGgraphR
+Title: Visualización automatica de disparos con introduccion manual
+Version: 0.1.0
+Author: Jesus Lagos
+Maintainer: Jesus Lagos Twitter:@VDOT_Spain <jelagmil@gmail.com> 
+Description:
+License: GLP-2
+Encoding: ISO-8859-2
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr 
