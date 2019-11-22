@@ -2,7 +2,7 @@
 % Please edit documentation in R/MapDisparosVistaxG.R
 \name{xGgraph}
 \alias{xGgraph}
-\title{Esta funcion crea una visualización a partir de datos de entrada de disparos introducidos de manera manual.}
+\title{Esta funcion crea una visualizacion a partir de datos de entrada de disparos introducidos de manera manual.}
 \usage{
 xGgraph()
 }
@@ -10,7 +10,7 @@ xGgraph()
 El mapa de tiros y acumulado en un partido para los equipos con el xG calculado
 }
 \description{
-Esta funcion crea una visualización a partir de datos de entrada de disparos introducidos de manera manual.
+Esta funcion crea una visualizacion a partir de datos de entrada de disparos introducidos de manera manual.
 }
 \examples{
 xGgraph()
