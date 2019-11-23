@@ -6,6 +6,7 @@
 #' @export
 #'
 #' @import ggrepel
+#' @import caret
 #' @import gbm
 #' @import pdp
 #' @import ggplot2
@@ -112,7 +113,7 @@ xGgraph <- function(){
           prueba$distancia <- as.numeric(as.character(prueba$distancia))
           prueba$angulo <- as.numeric(as.character(prueba$angulo))
           prueba2<-dplyr::select(prueba,distancia,angulo,one2one,penalty,situacion_juego,parte_cuerpo)
-          prueba$GBM <- gbm::predict(xG_model, prueba2, na.action = na.pass, type = "prob")[,"1"]
+          prueba$GBM <- caret::predict(xG_model, prueba2, na.action = na.pass, type = "prob")[,"1"]
 
           prueba$x<-x
           prueba$y<-y
