@@ -6,7 +6,6 @@
 #' @export
 #'
 #' @import ggrepel
-#' @import caret
 #' @import gbm
 #' @import pdp
 #' @import ggplot2
